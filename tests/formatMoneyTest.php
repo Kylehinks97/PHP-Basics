@@ -37,4 +37,5 @@ class formatMoneyTest extends TestCase
         $result = formatMoney(-12345678.90, "£");
         $this->assertEquals("-£12,345,678.90", $result);
     }
+    
 }
